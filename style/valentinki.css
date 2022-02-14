@@ -1,0 +1,46 @@
+.page__body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: url("../img/valday.jpeg") no-repeat top center;
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  color: rgb(155, 150, 225);
+  transition: background-image ease 1s;
+}
+
+.block--visible {
+  padding: 5%;
+  border-radius: 1em;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.block--visible:active {
+  outline: 2px solid blue;
+}
+
+.block__iskorka {
+  color: yellow;
+}
+
+.block:active .block__iskorka {
+  color: darkorange;
+}
+
+.val__border {
+  position: relative;
+  width: calc(280px + (630 - 280) * ( (100vw - 320px) / ( 1600 - 320) ));
+  transition: widht ease .3s;
+  height: auto;
+}
+
+.val__main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-59%, -40%);
+  width: calc(50px + (100 - 50) * ( (100vw - 320px) / ( 1600 - 320) ));
+  transition: widht ease .3s;
+  height: auto;
+}

@@ -3,12 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" sizes="128x128" href="favicon128.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" sizes="128x128" href="img/favicon128.png">
     <title>What is love?</title>
   </head>
   <body class="page__body">
-    <img class="heart" src="heart.gif" alt="Моё сердце" width="128" height="128">
-    <p class="desc">Моё сердце всё ещё<br>способно биться...</p>
+    <main class="page-main">
+      <h1 class="visually-hidden">Что такое любовь? Сайт создан исключительно в развлекательных целях.</h1>
+      <div class="page-main__block block block--visible block--1" tabindex="0">
+        <h2 class="visually-hidden">Игровая карточка 1</h2>
+        <img class="block__heart" src="img/heart.gif" alt="Моё сердце" width="128" height="128">
+        <p class="block__desc">Моё сердце всё ещё<br>способно биться...</p>
+      </div>
+<!--
+      <div class="page-main__block block block--2" onclick="alert('Обманка'); return false;" tabindex="0">
+        <img class="block__heart" src="img/heart.gif" alt="Моё сердце" width="128" height="128">
+        <p class="block__desc">Ты точно готова к тому,<br>что произойдёт дальше?</p>
+      </div>
+
+      <div class="page-main__block block block--3" onclick="alert('Обманка'); return false;" tabindex="0">
+        <img class="block__heart" src="img/heart2.png" alt="Моё сердце" width="128" height="128">
+        <p class="block__desc">Ты точно готова к тому,<br>что произойдёт дальше?</p>
+      </div>
+    </page-main> -->
+    <script src="js/app.js"></script>
   </body>
 </html>
